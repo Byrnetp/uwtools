@@ -5,7 +5,7 @@ on:
       - main
   push:
     branches:
-      - main
+      - ci-testing
   workflow_dispatch:
     branches:
       - '**'
@@ -23,3 +23,5 @@ jobs:
         run: .github/scripts/format-check.sh
       - name: Test
         run: .github/scripts/test.sh
+      - name: Test Notebooks
+        run: .github/scripts/test-nb.sh
