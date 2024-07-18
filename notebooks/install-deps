@@ -1,1 +1,1 @@
-conda install -q -y nb_conda_kernels testbook pytest uwtools
+conda install -q -y nb_conda_kernels pytest testbook
