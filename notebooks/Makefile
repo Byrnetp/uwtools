@@ -6,4 +6,4 @@ all:
 	$(error Valid targets are: $(TARGETS))
 
 test-nb:
-	pytest $(CURDIR) tests
+	pytest $(CURDIR)/tests
